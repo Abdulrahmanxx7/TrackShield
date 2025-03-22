@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button.off {
+    background-color: red;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+button, input, label {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    color: #d9534f;
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+.status {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 3px 7px;
+    border-radius: 3px;
+}

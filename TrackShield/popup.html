@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackShield</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>TrackShield</h2>
+    <p>إضافة لحماية خصوصيتك عبر منع التتبع وحجب الإعلانات.</p>
+    
+    <div class="toggle-container">
+        <label for="toggleBlockSites">حجب المواقع</label>
+        <input type="checkbox" id="toggleBlockSites">
+    </div>
+    
+    <div class="toggle-container">
+        <label for="toggleBlockAds">حظر الإعلانات</label>
+        <input type="checkbox" id="toggleBlockAds">
+    </div>
+
+    <div class="toggle-container">
+        <label for="toggleBlockPopups">منع النوافذ المنبثقة</label>
+        <input type="checkbox" id="toggleBlockPopups">
+    </div>
+
+    <hr>
+
+    <h3>إضافة موقع للحجب</h3>
+    <p>أدخل عنوان الموقع (مثال: example.com):</p>
+    <input type="text" id="blockSiteInput" placeholder="example.com">
+    <button id="addBlockSite">إضافة</button>
+    <ul id="blockedSitesList"></ul>
+</body>
+<script src="popup.js"></script>
+</html>
